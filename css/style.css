@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Gilroy-Medium', sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* header */
+ul li {
+    cursor: pointer;
+    color: #828282;
+}
+ul li:first-child {
+    color: black;
+    font-weight: 700;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0;
+    padding: 32px 0;
+    border-bottom: 1px solid #828282;
+}
+
+.container {
+    width: 945px;
+    margin: 0 auto;
+}
+
+.bio {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 40px 0 49px 0;
+}
+
+header h1 {
+    width: 123px;
+    margin: 0;
+    font-size: 47.3392px;
+    line-height: 59px;
+}
+
+.lang {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+}
+.main-banner {
+    width: 100%;
+}
+.main-banner_mob {
+    display: none;
+}
+.burger-menu {
+    display: none;
+}
+.nav-mob {
+    display: none;
+}
+
+/* section one */
+.about-section {
+    background: #F6F6F6;
+    text-align: center;
+    padding: 120px 0 107px 0;
+    margin-top: 104px;
+}
+.about-section p {
+    width: 400px;
+    margin: 20px auto;
+}
+.section-title {
+    font-size: 34px;
+    line-height: 42px;
+}
+
+/* section two */
+.skills-section {
+    text-align: center;
+    padding: 91px 0 110px 0;
+}
+.tools {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 83px;
+}
+.tools img {
+    width: 166.46px;
+}
+
+/* section three */
+.portfolio-section {
+    text-align: center;
+    padding: 112px 0 5px 0;
+    background: #F6F6F6;
+}
+.portfolio-section .section-title {
+    margin-bottom: 47px;
+}
+.portfolio-section img {
+    width: inherit;
+}
+.portfolio-section p {
+    margin: 44px 0 99px 0;
+}
+.portfolio-section p a {
+    color: #070707;
+}
+
+/* footer */
+footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 114px 0 100px 0;
+}
+.chat {
+    margin: 0;
+}
+footer button {
+    width: 166px;
+    height: 38px;
+    border-style: none;
+    border-radius: 20px;
+    background: #070707;
+    cursor: pointer;
+    margin-top: 35px;
+    font-size: 15px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+footer div {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 75px;
+}
+footer img {
+    width: 40px;
+    cursor: pointer;
+}
+.sub-text {
+    font-size: 14px;
+    line-height: 17px;
+    color: #828282;
+    padding-top: 45px;
+}

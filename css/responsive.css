@@ -1,0 +1,103 @@
+@media (max-width: 375px) {
+    body {
+        padding: 0;
+    }
+    .nav {
+        display: none;
+    }
+    .container {
+        width: 100%;
+        padding: 0 29px;
+    }
+    .main-banner {
+        display: none;
+    }
+    .main-banner_mob {
+        display: flex;
+        width: inherit;
+    }
+    .lang {
+        display: none;
+    }
+    .bio {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .bio div {
+        padding-top: 20px;
+    }
+    .bio h1 {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-bottom: 23px;
+    }
+    .burger-menu {
+        width: 30px;
+        margin-top: 19px;
+        cursor: pointer;
+        display: flex;
+    }
+    .nav-mob {
+        display: none;
+        position: absolute;
+        background-color: white;
+        height: 100vh;
+        width: 100%;
+        margin-top: -40px;
+        padding: 66px;
+    }
+    .nav-mob .nav {
+        display: flex;
+        flex-direction: column;
+        border: none;
+    }
+    .nav li {
+        font-size: 34px;
+        line-height: 42px;
+        margin-bottom: 68px;
+    }
+    .section-title {
+        margin-top: 0;
+    }
+    .about-section {
+        padding: 81px 0 46px 0;
+    }
+    .about-section p {
+        width: inherit;
+        margin: 30px auto;
+    }
+    .skills-section .section-title {
+        margin-top: 83px;
+    }
+    .tools {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 18px;
+    }
+    .tools img {
+        margin-bottom: 80px;
+    }
+    footer .section-title {
+        margin-top: 82px;
+    }
+    footer div {
+        margin-top: 48px;
+    }
+    footer .sub-text {
+        margin-bottom: 90px;
+    }
+    #clouse-btn {
+        width: 23px;
+    }
+    .nav-mob .nav li:first-child {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    .nav-mob .lang {
+        display: flex;
+        margin-left: 90%;
+    }
+}
